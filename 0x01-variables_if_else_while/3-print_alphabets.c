@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-	char alpha_bet;
-	for (alpha_bet = 'a'; alpha_bet <= 'z'; alpha_bet++)
-		putchar(alpha_bet);
-	for (alpha_bet = 'Z'; alpha_bet <= 'Z'; alpha_bet++)
-		putchar(alpha_bet);
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	for (c = 'Z'; c <= 'Z'; c++)
+		putchar(c);
 	putchar('\n');
 	return (0);
 }
