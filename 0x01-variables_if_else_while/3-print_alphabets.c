@@ -1,10 +1,9 @@
-i
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase, and then in uppercase
+ * main - Prints the alphabet in lowercase, and then in uppercase.
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -18,5 +17,5 @@ int main(void)
 
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
