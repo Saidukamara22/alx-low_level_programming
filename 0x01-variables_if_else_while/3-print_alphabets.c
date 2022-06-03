@@ -1,21 +1,22 @@
+i
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - prints alphaBETS
+ * main - prints the alphabet in lowercase, and then in uppercase
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
-	char ch;
+	char letter;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	for (ch 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
+
 	putchar('\n');
 
-	return (0);
+	return(0);
 }
