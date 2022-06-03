@@ -11,18 +11,18 @@
 void ldigit(int n)
 {
 	int lst;
-	lst = n % 10;
-	if (lst > 5)
+	lD = n % 10;
+	if (lD > 5)
 	{
-		printf("Last digit of %d n %d and is greater than 5\n", n, lst);
+		printf("Last digit of %d is %d and is greater than 5\n", n, lD);
 	}
-	else if (lst == 0)
+	else if (lD == 0)
 	{
-		printf("Last digit of %d n %d and is 0\n", n, lst);
+		printf("Last digit of %d is %d and is 0\n", n, lD);
 	}
 	else
 	{
-		printf("Last digit of %d n %d and is less than 6 and not 0\n", n, lst);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lD);
 	}
 }
 /**
