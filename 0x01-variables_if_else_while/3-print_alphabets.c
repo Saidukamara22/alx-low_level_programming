@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - prints alphaBETS
@@ -12,7 +14,7 @@
 	{
 		putchar(ch);
 	}
-	for (ch 'A'; ch <= 'A'; ch++)
+	for (ch 'A'; ch <= 'Z'; ch++)
 	{
 		putchar(ch);
 	}
