@@ -1,18 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - print the alPHABET with putchar
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
-
-	for (c = 'a' ; c <= 'z' c++)
-		putchar(c);
-	for (c = 'A' ; c <= 'Z' c++)
-		putchar(c);
+	char alpha_bet;
+	for (alpha_bet = 'a'; alpha_bet <= 'z'; alpha_bet++)
+		putchar(alpha_bet);
+	for (alpha_bet = 'Z'; alpha_bet <= 'Z'; alpha_bet++)
+		putchar(alpha_bet);
 	putchar('\n');
-
 	return (0);
 }
