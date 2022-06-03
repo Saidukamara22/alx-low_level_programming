@@ -3,40 +3,31 @@
 #include <stdio.h>
 
 /**
- * ldigit - desc
+ * main - Prints the last digit of a randomly generated number *and whether it is greater than 5, less than 6, or 0.
  *
- * @m: The number to be checked
+ * Return: Always 0.
  */
-void ldigit(int n)
-{
-	int lst;
 
-	lst = n % 10;
-
-	if (lst > 5)
-	{
-		printf("Last digit of %i is %i and is greater than 5\n", n, lst);
-	}
-	else if (lst == 0)
-	{
-		printf("Last digit of %d is %d and is 0\n", n, lst);
-	}
-	else
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lst);
-	}
-}
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	ldigit(n);
+	/* your code goes there */
+
+	if ((n % 10) >5)
+	{
+		printf("Last digit of %d is %d greater than 5\n", n, n % 10);
+	}
+	else if ((n % 10) < 6 && (n % 10) != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
+	}
+	else
+	{
+		printf("Last digit of %d is %d and is 0\n", n, n % 10);
+	}
+
 	return (0);
 }
