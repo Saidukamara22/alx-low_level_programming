@@ -3,21 +3,21 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - prints alphaBETS
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
+	char ch;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(c);
+		putchar(ch);
 	}
-	for (c = 'Z'; c <= 'Z'; c++)
+	for (ch = 'Z'; ch <= 'Z'; ch++)
 	{
-		putchar(c);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
