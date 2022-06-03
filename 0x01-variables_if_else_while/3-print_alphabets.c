@@ -1,13 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - prints alphaBETS
  *
  * Return: Always 0 (Success)
  */
-int main(void)
 {
 	char ch;
 
@@ -15,7 +12,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	for (ch = 'Z'; ch <= 'Z'; ch++)
+	for (ch 'A'; ch <= 'A'; ch++)
 	{
 		putchar(ch);
 	}
