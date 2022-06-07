@@ -1,12 +1,14 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - main block
- * Return: 0.
+ * main - Entry point
+ *
+ * Return: void
  */
 int main(void)
 {
-	_putchar('_p');
+
+	_putchar('p');
 	_putchar('u');
 	_putchar('t');
 	_putchar('c');
@@ -14,5 +16,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
