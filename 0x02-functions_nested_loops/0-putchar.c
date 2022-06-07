@@ -1,23 +1,12 @@
-#include <stdio.h>
-#include <main.h>
-#include "putchar.h"
+#include <unistd.h>
 
 /**
- * main - Prints "_putchar" followed by a new line.
+ * write a program that prints _putchar ,followed by a new line.
  *
- * Return: Always 0.
+ * Return on Success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+int _putchar(char c)
 {
-	putchar(");
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
-	return (0);
+	return (write(1, &c, c));
 }
