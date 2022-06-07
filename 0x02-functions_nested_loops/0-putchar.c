@@ -1,12 +1,12 @@
-#include <unistd.h>
+#include <main.h>
 
 /**
  * write a program that prints _putchar ,followed by a new line.
  *
- * Return on Success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0.
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, c));
+	printf("_putchar\n");
+	return (0);
 }
