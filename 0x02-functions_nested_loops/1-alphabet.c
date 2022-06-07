@@ -12,8 +12,8 @@ void print_alphabet(void)
 	char sai;
 
 	for (sai = 'a'; sai <= 'z'; sai++)
-	{
+	
 		_putchar(sai);
-	}
+	
 	_putchar('\n');
 }
