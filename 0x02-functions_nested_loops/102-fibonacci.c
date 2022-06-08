@@ -3,7 +3,7 @@
 /**
  * main - prints the first 50 fibonacci numbers, starting with 1 and 2
  * followed by a new line
- * Return: Alwaus 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -17,10 +17,10 @@ int main(void)
 	{
 		if (j != 20365011074)
 		{
-			printf("%ld", j);
+			printf("%ld, ", j);
 		} else
 		{
-			printf("%d\n", j);
+			printf("%ld\n", j);
 		}
 		next = j + k;
 		j = k;
