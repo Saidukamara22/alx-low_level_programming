@@ -2,7 +2,7 @@
 
 /**
  * print_rev - prints a string in reverse.
- * @s: string to tbe reserved.
+ * @s: string to be reserved.
  */
 void print_rev(char *s)
 {
