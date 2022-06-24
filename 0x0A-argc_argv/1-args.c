@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print the number of arguement passed to it.
- * @args: The number of arguement supplied to the program.
- * @argv: An array of pointers to the arguements.
+ * main - Print the number of arguments passed to it.
+ * @args: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
  * Return: Always 0.
  */
