@@ -7,8 +7,8 @@
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
- * Return: If the number of arguments is not excately one - 1.
- *         Otherwise - 0.
+ * Return: If the number of arguments is not exactly one - 1.
+ *         Othewise - 0.
  */
 int main(int argc, char *argv[])
 {
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
 	cents = atoi(argv[1]);
 
-	while (cent > 0)
+	while (cents > 0)
 	{
 		coins++;
 		if ((cents - 25) >= 0)
