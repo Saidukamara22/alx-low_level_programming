@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-#include <stdio.h>
 
 /**
  * print_all - Prints anything.
@@ -12,7 +11,7 @@ void print_all(const char * const format, ...)
 	va_list valist;
 	unsigned int i = 0, j, c = 0;
 	char *str;
-	const char t_arg[] = "cifs';
+	const char t_arg[] = "cifs";
 
 	va_start(valist, format);
 	while (format && format[i])
@@ -44,7 +43,7 @@ void print_all(const char * const format, ...)
 					printf("(nil)");
 					break;
 				}
-				printf("%s", str);
+				printf('%s', str);
 				break;
 		} i++;
 	}
